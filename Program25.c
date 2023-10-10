@@ -2,8 +2,8 @@
 
 int Average(int iNo1 , int iNo2, int iNo3)
 {
-    float iAvg = 0;
-    iAvg = (iNo1 + iNo2 + iNo3;)/3;
+    float iAvg = 0.0f;
+    iAvg = ((float) iNo1 + iNo2 + iNo3)/3;
     return iAvg;
 }
 int main()
