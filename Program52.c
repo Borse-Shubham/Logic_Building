@@ -1,0 +1,32 @@
+//Input : 1234
+//Output : 10
+
+#include<stdio.h>
+
+int SumDigits(int iNo)
+{
+    int iSum = 0;
+    int iDigit = 0;
+    
+    while(iNo != 0)
+    {   
+        iSum = iSum + (iNo % 10);
+        iNo = iNo / 10;
+    }
+    return iSum;
+}
+
+int main()
+{
+    int iValue = 0;
+    int iRet = 0;
+
+    printf("Enter Number : \n");
+    scanf("%d",&iValue);
+
+    iRet = SumDigits(iValue);
+
+    printf("Addition of Digits are : %d\n",iRet);
+
+    return 0;
+}
