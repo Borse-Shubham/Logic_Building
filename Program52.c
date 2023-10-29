@@ -6,7 +6,6 @@
 int SumDigits(int iNo)
 {
     int iSum = 0;
-    int iDigit = 0;
     
     while(iNo != 0)
     {   
